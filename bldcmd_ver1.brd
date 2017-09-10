@@ -1313,7 +1313,60 @@ PSMN2R4-30MLDC ©  Nexperia B.V. 2017. All rights reserved</description>
 <text x="-1.7016" y="1.8286" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.7016" y="-4.0316" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="SOP65P640X120-14N">
+<description>&lt;b&gt;TSSOP-14&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.938" y="1.95" dx="1.475" dy="0.45" layer="1"/>
+<smd name="2" x="-2.938" y="1.3" dx="1.475" dy="0.45" layer="1"/>
+<smd name="3" x="-2.938" y="0.65" dx="1.475" dy="0.45" layer="1"/>
+<smd name="4" x="-2.938" y="0" dx="1.475" dy="0.45" layer="1"/>
+<smd name="5" x="-2.938" y="-0.65" dx="1.475" dy="0.45" layer="1"/>
+<smd name="6" x="-2.938" y="-1.3" dx="1.475" dy="0.45" layer="1"/>
+<smd name="7" x="-2.938" y="-1.95" dx="1.475" dy="0.45" layer="1"/>
+<smd name="8" x="2.938" y="-1.95" dx="1.475" dy="0.45" layer="1"/>
+<smd name="9" x="2.938" y="-1.3" dx="1.475" dy="0.45" layer="1"/>
+<smd name="10" x="2.938" y="-0.65" dx="1.475" dy="0.45" layer="1"/>
+<smd name="11" x="2.938" y="0" dx="1.475" dy="0.45" layer="1"/>
+<smd name="12" x="2.938" y="0.65" dx="1.475" dy="0.45" layer="1"/>
+<smd name="13" x="2.938" y="1.3" dx="1.475" dy="0.45" layer="1"/>
+<smd name="14" x="2.938" y="1.95" dx="1.475" dy="0.45" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<wire x1="-3.925" y1="2.8" x2="3.925" y2="2.8" width="0.05" layer="21"/>
+<wire x1="3.925" y1="2.8" x2="3.925" y2="-2.8" width="0.05" layer="21"/>
+<wire x1="3.925" y1="-2.8" x2="-3.925" y2="-2.8" width="0.05" layer="21"/>
+<wire x1="-3.925" y1="-2.8" x2="-3.925" y2="2.8" width="0.05" layer="21"/>
+<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.2" y1="2.5" x2="2.2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="2.2" y1="-2.5" x2="-2.2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="-2.5" x2="-2.2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="1.85" x2="-1.55" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-1.85" y1="2.5" x2="1.85" y2="2.5" width="0.2" layer="25"/>
+<wire x1="1.85" y1="2.5" x2="1.85" y2="-2.5" width="0.2" layer="25"/>
+<wire x1="1.85" y1="-2.5" x2="-1.85" y2="-2.5" width="0.2" layer="25"/>
+<wire x1="-1.85" y1="-2.5" x2="-1.85" y2="2.5" width="0.2" layer="25"/>
+<circle x="-3.675" y="2.925" radius="0.163" width="0.325" layer="25"/>
+</package>
 </packages>
+</library>
+<library name="testpad" urn="urn:adsk.eagle:library:385">
+<description>&lt;b&gt;Test Pins/Pads&lt;/b&gt;&lt;p&gt;
+Cream on SMD OFF.&lt;br&gt;
+new: Attribute TP_SIGNAL_NAME&lt;br&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="TP06R" urn="urn:adsk.eagle:footprint:27908/1" library_version="1">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<smd name="TP" x="0" y="0" dx="0.6" dy="0.6" layer="1" roundness="100" cream="no"/>
+<text x="-0.3" y="0.4001" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.254" y="-0.381" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="0" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="TP06R" urn="urn:adsk.eagle:package:27954/1" type="box" library_version="1">
+<description>TEST PAD</description>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -1507,16 +1560,16 @@ design rules under a new name.</description>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="" x="26.67" y="62.23"/>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="" x="22.86" y="62.23"/>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="" x="19.05" y="62.23"/>
-<element name="IC1" library="rcssl_lib" package="QFN50P700X700X100-49N" value="STSPIN32F0" x="47.48" y="26.86" rot="R90">
-<attribute name="3D_PACKAGE" value="" x="47.48" y="26.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ALLIED_NUMBER" value="" x="47.48" y="26.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="Motor / Motion / Ignition Controllers &amp; Drivers Advance BLDC Contrlr w/Embedded STM32 MCU" x="47.48" y="26.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="47.48" y="26.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="47.48" y="26.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="STSPIN32F0" x="47.48" y="26.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OTHER_PART_NUMBER" value="" x="47.48" y="26.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS_PART_NUMBER" value="" x="47.48" y="26.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="47.48" y="26.86" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="IC1" library="rcssl_lib" package="QFN50P700X700X100-49N" value="STSPIN32F0" x="46.18" y="31.26" rot="R90">
+<attribute name="3D_PACKAGE" value="" x="46.18" y="31.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ALLIED_NUMBER" value="" x="46.18" y="31.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="Motor / Motion / Ignition Controllers &amp; Drivers Advance BLDC Contrlr w/Embedded STM32 MCU" x="46.18" y="31.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1mm" x="46.18" y="31.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="46.18" y="31.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="STSPIN32F0" x="46.18" y="31.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OTHER_PART_NUMBER" value="" x="46.18" y="31.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PART_NUMBER" value="" x="46.18" y="31.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="46.18" y="31.26" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="Q1" library="rcssl_lib" package="LFPAK33" value="PSMN2R4-30MLD" x="40.64" y="50.7">
 <attribute name="MF" value="Nexperia USA Inc." x="40.64" y="50.7" size="1.778" layer="27" display="off"/>
@@ -1558,52 +1611,85 @@ design rules under a new name.</description>
 <element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10u" x="48.93" y="48.61" rot="R270"/>
 <element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10u" x="54.48" y="48.61" rot="R270"/>
 <element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R3216" package3d_urn="urn:adsk.eagle:package:23557/2" value="0.01" x="37" y="43.2" rot="R180"/>
+<element name="IC2" library="rcssl_lib" package="SOP65P640X120-14N" value="AS5047P-ATSM" x="59.1" y="27.5">
+<attribute name="3D_PACKAGE" value="" x="59.1" y="27.5" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_NUMBER" value="" x="59.1" y="27.5" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Board Mount Hall Effect / Magnetic Sensors 14 bit core res Up to 28krpm" x="59.1" y="27.5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.2mm" x="59.1" y="27.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ams" x="59.1" y="27.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AS5047P-ATSM" x="59.1" y="27.5" size="1.778" layer="27" display="off"/>
+<attribute name="OTHER_PART_NUMBER" value="" x="59.1" y="27.5" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="" x="59.1" y="27.5" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="59.1" y="27.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1u" x="60.4" y="44.1"/>
+<element name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R" x="65.2" y="26.9">
+<attribute name="TP_SIGNAL_NAME" value="" x="65.2" y="26.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R" x="65.5" y="26">
+<attribute name="TP_SIGNAL_NAME" value="" x="65.5" y="26" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R" x="63.6" y="25.1">
+<attribute name="TP_SIGNAL_NAME" value="" x="63.6" y="25.1" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R" x="53.1" y="29.5">
+<attribute name="TP_SIGNAL_NAME" value="" x="53.1" y="29.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R" x="54.4" y="28.8">
+<attribute name="TP_SIGNAL_NAME" value="" x="54.4" y="28.8" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R" x="53.3" y="28.4">
+<attribute name="TP_SIGNAL_NAME" value="" x="53.3" y="28.4" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R" x="54.4" y="27.7">
+<attribute name="TP_SIGNAL_NAME" value="" x="54.4" y="27.7" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
 <contactref element="IC1" pad="27"/>
 <contactref element="C3" pad="1"/>
-<wire x1="49.23" y1="30.36" x2="18.175" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="47.93" y1="34.76" x2="18.175" y2="62.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="C2" pad="1"/>
 <contactref element="IC1" pad="31"/>
-<wire x1="47.23" y1="30.36" x2="21.985" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="45.93" y1="34.76" x2="21.985" y2="62.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="IC1" pad="35"/>
 <contactref element="C1" pad="1"/>
-<wire x1="45.23" y1="30.36" x2="25.795" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="43.93" y1="34.76" x2="25.795" y2="62.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HS_U">
 <contactref element="IC1" pad="33"/>
 <contactref element="R3" pad="1"/>
-<wire x1="46.23" y1="30.36" x2="54.12" y2="47.01" width="0" layer="19" extent="1-1"/>
+<wire x1="44.93" y1="34.76" x2="54.12" y2="47.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LS_V">
 <contactref element="IC1" pad="32"/>
 <contactref element="R5" pad="1"/>
-<wire x1="48.49" y1="40.92" x2="46.73" y2="30.36" width="0" layer="19" extent="1-1"/>
+<wire x1="48.49" y1="40.92" x2="45.43" y2="34.76" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HS_V">
 <contactref element="IC1" pad="29"/>
 <contactref element="R2" pad="1"/>
-<wire x1="48.23" y1="30.36" x2="48.52" y2="46.92" width="0" layer="19" extent="1-1"/>
+<wire x1="46.93" y1="34.76" x2="48.52" y2="46.92" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LS_W">
 <contactref element="IC1" pad="28"/>
 <contactref element="R6" pad="1"/>
-<wire x1="42.68" y1="40.22" x2="48.73" y2="30.36" width="0" layer="19" extent="1-1"/>
+<wire x1="42.68" y1="40.22" x2="47.43" y2="34.76" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HS_W">
 <contactref element="IC1" pad="25"/>
 <contactref element="R1" pad="1"/>
-<wire x1="50.23" y1="30.36" x2="43.02" y2="47.53" width="0" layer="19" extent="1-1"/>
+<wire x1="48.93" y1="34.76" x2="43.02" y2="47.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LS_U">
 <contactref element="IC1" pad="36"/>
 <contactref element="R4" pad="1"/>
-<wire x1="44.73" y1="30.36" x2="54.12" y2="44" width="0" layer="19" extent="1-1"/>
+<wire x1="43.43" y1="34.76" x2="54.12" y2="44" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOT_U">
 <contactref element="Q5" pad="1"/>
@@ -1622,7 +1708,7 @@ design rules under a new name.</description>
 <wire x1="52.035" y1="49.075" x2="51.385" y2="49.075" width="0" layer="19" extent="1-1"/>
 <wire x1="50.735" y1="49.075" x2="51.385" y2="49.075" width="0" layer="19" extent="1-1"/>
 <wire x1="51.71" y1="47.015" x2="51.385" y2="49.075" width="0" layer="19" extent="1-1"/>
-<wire x1="45.73" y1="30.36" x2="51.71" y2="47.015" width="0" layer="19" extent="1-1"/>
+<wire x1="44.43" y1="34.76" x2="51.71" y2="47.015" width="0" layer="19" extent="1-1"/>
 <wire x1="27.545" y1="62.23" x2="50.735" y2="49.075" width="0" layer="19" extent="1-1"/>
 <wire x1="4.43" y1="49.53" x2="27.545" y2="62.23" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1643,7 +1729,7 @@ design rules under a new name.</description>
 <wire x1="46.485" y1="49.075" x2="45.835" y2="49.075" width="0" layer="19" extent="1-1"/>
 <wire x1="45.185" y1="49.075" x2="45.835" y2="49.075" width="0" layer="19" extent="1-1"/>
 <wire x1="46.16" y1="47.015" x2="45.835" y2="49.075" width="0" layer="19" extent="1-1"/>
-<wire x1="47.73" y1="30.36" x2="46.16" y2="47.015" width="0" layer="19" extent="1-1"/>
+<wire x1="46.43" y1="34.76" x2="46.16" y2="47.015" width="0" layer="19" extent="1-1"/>
 <wire x1="23.735" y1="62.23" x2="45.185" y2="49.075" width="0" layer="19" extent="1-1"/>
 <wire x1="14.59" y1="49.53" x2="23.735" y2="62.23" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1664,7 +1750,7 @@ design rules under a new name.</description>
 <wire x1="40.315" y1="49.075" x2="40.965" y2="49.075" width="0" layer="19" extent="1-1"/>
 <wire x1="39.665" y1="49.075" x2="40.315" y2="49.075" width="0" layer="19" extent="1-1"/>
 <wire x1="40.64" y1="47.015" x2="40.965" y2="49.075" width="0" layer="19" extent="1-1"/>
-<wire x1="49.73" y1="30.36" x2="40.64" y2="47.015" width="0" layer="19" extent="1-1"/>
+<wire x1="48.43" y1="34.76" x2="40.64" y2="47.015" width="0" layer="19" extent="1-1"/>
 <wire x1="19.925" y1="62.23" x2="39.665" y2="49.075" width="0" layer="19" extent="1-1"/>
 <wire x1="6.97" y1="58.42" x2="19.925" y2="62.23" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1767,9 +1853,67 @@ design rules under a new name.</description>
 <contactref element="C4" pad="2"/>
 <contactref element="C5" pad="2"/>
 <contactref element="C6" pad="2"/>
+<contactref element="IC2" pad="13"/>
+<contactref element="C7" pad="2"/>
+<contactref element="IC2" pad="5"/>
+<wire x1="54.48" y1="47.21" x2="61.275" y2="44.1" width="0" layer="19" extent="1-1"/>
 <wire x1="48.93" y1="47.21" x2="54.48" y2="47.21" width="0" layer="19" extent="1-1"/>
 <wire x1="43.41" y1="47.2" x2="48.93" y2="47.21" width="0" layer="19" extent="1-1"/>
 <wire x1="38.4" y1="43.2" x2="43.41" y2="47.2" width="0" layer="19" extent="1-1"/>
+<wire x1="62.038" y1="28.8" x2="61.275" y2="44.1" width="0" layer="19" extent="1-1"/>
+<wire x1="56.162" y1="26.85" x2="62.038" y2="28.8" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="+3V3">
+<contactref element="IC2" pad="11"/>
+<contactref element="IC2" pad="12"/>
+<contactref element="C7" pad="1"/>
+<wire x1="62.038" y1="28.15" x2="59.525" y2="44.1" width="0" layer="19" extent="1-1"/>
+<wire x1="62.038" y1="27.5" x2="62.038" y2="28.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ENC_B">
+<contactref element="IC2" pad="6"/>
+<contactref element="IC1" pad="18"/>
+<wire x1="56.162" y1="26.2" x2="49.68" y2="31.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ENC_A">
+<contactref element="IC2" pad="7"/>
+<contactref element="IC1" pad="17"/>
+<wire x1="56.162" y1="25.55" x2="49.68" y2="30.51" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="IC2" pad="10"/>
+<contactref element="TP1" pad="TP"/>
+<wire x1="65.2" y1="26.9" x2="62.038" y2="26.85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="IC2" pad="9"/>
+<contactref element="TP2" pad="TP"/>
+<wire x1="65.5" y1="26" x2="62.038" y2="26.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="IC2" pad="8"/>
+<contactref element="TP3" pad="TP"/>
+<wire x1="63.6" y1="25.1" x2="62.038" y2="25.55" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="IC2" pad="1"/>
+<contactref element="TP4" pad="TP"/>
+<wire x1="53.1" y1="29.5" x2="56.162" y2="29.45" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="IC2" pad="2"/>
+<contactref element="TP5" pad="TP"/>
+<wire x1="54.4" y1="28.8" x2="56.162" y2="28.8" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="IC2" pad="3"/>
+<contactref element="TP6" pad="TP"/>
+<wire x1="53.3" y1="28.4" x2="56.162" y2="28.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$17">
+<contactref element="IC2" pad="4"/>
+<contactref element="TP7" pad="TP"/>
+<wire x1="54.4" y1="27.7" x2="56.162" y2="27.5" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

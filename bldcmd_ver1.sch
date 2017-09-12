@@ -195,6 +195,43 @@ PSMN2R4-30MLDC ©  Nexperia B.V. 2017. All rights reserved</description>
 <wire x1="-1.85" y1="-2.5" x2="-1.85" y2="2.5" width="0.2" layer="25"/>
 <circle x="-3.675" y="2.925" radius="0.163" width="0.325" layer="25"/>
 </package>
+<package name="SON50P300X300X85-9N">
+<description>&lt;b&gt;CP-8-13 (LFCSP)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.45" y="0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="2" x="-1.45" y="0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="3" x="-1.45" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="4" x="-1.45" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="5" x="1.45" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="6" x="1.45" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="7" x="1.45" y="0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="8" x="1.45" y="0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="9" x="0" y="0" dx="1.84" dy="1.55" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<wire x1="-2.125" y1="1.8" x2="2.125" y2="1.8" width="0.05" layer="21"/>
+<wire x1="2.125" y1="1.8" x2="2.125" y2="-1.8" width="0.05" layer="21"/>
+<wire x1="2.125" y1="-1.8" x2="-2.125" y2="-1.8" width="0.05" layer="21"/>
+<wire x1="-2.125" y1="-1.8" x2="-2.125" y2="1.8" width="0.05" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="0.75" x2="-0.75" y2="1.5" width="0.1" layer="51"/>
+<circle x="-1.875" y="1.4" radius="0.125" width="0.25" layer="25"/>
+</package>
+<package name="SRN3015">
+<description>&lt;b&gt;SRN3015&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="0" y="-1.1" dx="2.7" dy="1" layer="1"/>
+<smd name="2" x="0" y="1.1" dx="2.7" dy="1" layer="1"/>
+<text x="0" y="-1.1" size="1.27" layer="25" align="center">&gt;NAME</text>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.2" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.2" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.2" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.2" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.1" layer="25"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="STSPIN32F0">
@@ -310,6 +347,33 @@ PSMN2R4-30MLDC ©  Nexperia B.V. 2017. All rights reserved</description>
 <pin name="U" x="30.48" y="-10.16" length="middle" direction="pas" rot="R180"/>
 <pin name="V" x="30.48" y="-12.7" length="middle" direction="pas" rot="R180"/>
 <pin name="W/PWM" x="30.48" y="-15.24" length="middle" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="ADM4852ACPZ-REEL7">
+<wire x1="5.08" y1="2.54" x2="30.48" y2="2.54" width="0.254" layer="94"/>
+<wire x1="30.48" y1="2.54" x2="30.48" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="17.78" y="5.08" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="17.78" y="-15.24" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<pin name="RO" x="0" y="0" length="middle" direction="pas"/>
+<pin name="!RE" x="0" y="-2.54" length="middle" direction="pas"/>
+<pin name="DE" x="0" y="-5.08" length="middle" direction="pas"/>
+<pin name="DI" x="0" y="-7.62" length="middle" direction="pas"/>
+<pin name="GND" x="0" y="-10.16" length="middle" direction="pas"/>
+<pin name="THERMAL_PAD" x="35.56" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="VCC" x="35.56" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="B" x="35.56" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="A" x="35.56" y="-7.62" length="middle" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="SRN3015-220M">
+<pin name="1" x="0" y="0" visible="off" length="middle"/>
+<pin name="2" x="20.32" y="0" visible="off" length="middle" rot="R180"/>
+<text x="10.16" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="10.16" y="-1.27" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -450,6 +514,73 @@ Source: &lt;a href="http://ams.com/eng/content/download/725051/1853902/379375"&g
 <attribute name="MANUFACTURER_PART_NUMBER" value="AS5047P-ATSM" constant="no"/>
 <attribute name="OTHER_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="RS" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADM4852ACPZ-REEL7" prefix="IC">
+<description>&lt;b&gt;ANALOG DEVICES - ADM4852ACPZ-REEL7 - RS422/RS485 TXRX, 2.5MBPS, 5.25V, LFCSP8&lt;/b&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;&lt;a href="&lt;br&gt;&lt;a href="https://componentsearchengine.com/Images/1/ADM4852ACPZ-REEL7.jpg" title="Image"&gt;
+&lt;img src="https://componentsearchengine.com/Images/1/ADM4852ACPZ-REEL7.jpg" width="150"&gt;&lt;/a&gt;&lt;p&gt;
+Source: &lt;a href="http://www.analog.com/media/en/technical-documentation/data-sheets/ADM4850_4851_4852_4853_4854_4855_4856_4857.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ADM4852ACPZ-REEL7" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SON50P300X300X85-9N">
+<connects>
+<connect gate="G$1" pin="!RE" pad="2"/>
+<connect gate="G$1" pin="A" pad="6"/>
+<connect gate="G$1" pin="B" pad="7"/>
+<connect gate="G$1" pin="DE" pad="3"/>
+<connect gate="G$1" pin="DI" pad="4"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="RO" pad="1"/>
+<connect gate="G$1" pin="THERMAL_PAD" pad="9"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="3D_PACKAGE" value="" constant="no"/>
+<attribute name="ALLIED_NUMBER" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="ANALOG DEVICES - ADM4852ACPZ-REEL7 - RS422/RS485 TXRX, 2.5MBPS, 5.25V, LFCSP8" constant="no"/>
+<attribute name="HEIGHT" value="0.85mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Analog Devices" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ADM4852ACPZ-REEL7" constant="no"/>
+<attribute name="OTHER_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="RS" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SRN3015-220M" prefix="L">
+<description>&lt;b&gt;Power Inductor semi-shielded SMD 22uH Bourns SRN3015 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 22 H 20% Wire-Wound 600mA Idc&lt;/b&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;&lt;a href="&lt;br&gt;&lt;a href="https://componentsearchengine.com/Images/1/SRN3015-220M.jpg" title="Image"&gt;
+&lt;img src="https://componentsearchengine.com/Images/1/SRN3015-220M.jpg" width="150"&gt;&lt;/a&gt;&lt;p&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/1875284.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SRN3015-220M" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SRN3015">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="3D_PACKAGE" value="" constant="no"/>
+<attribute name="ALLIED_NUMBER" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Power Inductor semi-shielded SMD 22uH Bourns SRN3015 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 22 H 20% Wire-Wound 600mA Idc" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SRN3015-220M" constant="no"/>
+<attribute name="OTHER_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="7435087" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="RS" constant="no"/>
 </technology>
 </technologies>
@@ -8336,6 +8467,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1"/>
 <part name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="IC3" library="rcssl_lib" deviceset="ADM4852ACPZ-REEL7" device=""/>
+<part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="L1" library="rcssl_lib" deviceset="SRN3015-220M" device=""/>
+<part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1u"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="10u"/>
+<part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1u"/>
+<part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="47u"/>
+<part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8360,6 +8505,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP6" gate="G$1" x="-45.72" y="-76.2" rot="R90"/>
 <instance part="TP7" gate="G$1" x="-45.72" y="-78.74" rot="R90"/>
 <instance part="SUPPLY4" gate="GND" x="-45.72" y="-81.28" rot="R270"/>
+<instance part="IC3" gate="G$1" x="-78.74" y="55.88" rot="MR0"/>
+<instance part="SUPPLY5" gate="GND" x="-76.2" y="40.64"/>
+<instance part="SUPPLY6" gate="GND" x="33.02" y="-66.04"/>
+<instance part="SUPPLY7" gate="GND" x="-116.84" y="55.88" rot="R270"/>
+<instance part="L1" gate="G$1" x="-38.1" y="-20.32"/>
+<instance part="SUPPLY8" gate="GND" x="7.62" y="35.56" rot="R270"/>
+<instance part="C8" gate="G$1" x="-33.02" y="2.54"/>
+<instance part="C9" gate="G$1" x="-40.64" y="2.54"/>
+<instance part="SUPPLY9" gate="GND" x="-45.72" y="-5.08" rot="R270"/>
+<instance part="C10" gate="G$1" x="12.7" y="35.56" rot="R90"/>
+<instance part="+3V3" gate="G$1" x="17.78" y="48.26"/>
+<instance part="+3V4" gate="G$1" x="-45.72" y="-12.7"/>
+<instance part="C11" gate="G$1" x="-45.72" y="-22.86"/>
+<instance part="SUPPLY10" gate="GND" x="-45.72" y="-30.48"/>
 </instances>
 <busses>
 </busses>
@@ -8471,6 +8630,46 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="IC2" gate="G$1" pin="TEST"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="GND"/>
+<pinref part="SUPPLY5" gate="GND" pin="GND"/>
+<wire x1="-78.74" y1="45.72" x2="-76.2" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="45.72" x2="-76.2" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY6" gate="GND" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="TESTMODE"/>
+<wire x1="33.02" y1="-63.5" x2="33.02" y2="-50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="THERMAL_PAD"/>
+<pinref part="SUPPLY7" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY9" gate="GND" pin="GND"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="-43.18" y1="-5.08" x2="-40.64" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-5.08" x2="-40.64" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="-40.64" y1="-5.08" x2="-33.02" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-5.08" x2="-33.02" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="-40.64" y="-5.08"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="EPAD_(GND)"/>
+<wire x1="15.24" y1="27.94" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="30.48" x2="10.16" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="30.48" x2="10.16" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="SUPPLY8" gate="GND" pin="GND"/>
+<junction x="10.16" y="35.56"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="SUPPLY10" gate="GND" pin="GND"/>
+<wire x1="-45.72" y1="-27.94" x2="-12.7" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="-45.72" y="-27.94"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -8486,6 +8685,22 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="IC1" gate="G$1" pin="VDD"/>
+<wire x1="17.78" y1="35.56" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<wire x1="17.78" y1="45.72" x2="17.78" y2="35.56" width="0.1524" layer="91"/>
+<junction x="17.78" y="35.56"/>
+</segment>
+<segment>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="-45.72" y1="-15.24" x2="-45.72" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="1"/>
+<wire x1="-45.72" y1="-20.32" x2="-38.1" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<junction x="-45.72" y="-20.32"/>
 </segment>
 </net>
 <net name="ENC_B" class="0">
@@ -8552,6 +8767,68 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="IC2" gate="G$1" pin="MOSI"/>
 <pinref part="TP7" gate="G$1" pin="TP"/>
+</segment>
+</net>
+<net name="UART_TX" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB6"/>
+<wire x1="40.64" y1="27.94" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
+<label x="40.64" y="43.18" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="DI"/>
+<wire x1="-78.74" y1="48.26" x2="-68.58" y2="48.26" width="0.1524" layer="91"/>
+<label x="-68.58" y="48.26" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="UART_RX" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB7"/>
+<wire x1="38.1" y1="27.94" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
+<label x="38.1" y="43.18" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="RO"/>
+<wire x1="-78.74" y1="55.88" x2="-68.58" y2="55.88" width="0.1524" layer="91"/>
+<label x="-68.58" y="55.88" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="RTS" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="!RE"/>
+<wire x1="-78.74" y1="53.34" x2="-76.2" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="53.34" x2="-76.2" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="DE"/>
+<wire x1="-76.2" y1="50.8" x2="-78.74" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="50.8" x2="-68.58" y2="50.8" width="0.1524" layer="91"/>
+<junction x="-76.2" y="50.8"/>
+<label x="-68.58" y="50.8" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB1"/>
+<wire x1="30.48" y1="-50.8" x2="30.48" y2="-53.34" width="0.1524" layer="91"/>
+<label x="30.48" y="-53.34" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="L1" gate="G$1" pin="2"/>
+<wire x1="-17.78" y1="-20.32" x2="7.62" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="SW"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="VREG12"/>
+<wire x1="7.62" y1="-12.7" x2="-25.4" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="-12.7" x2="-25.4" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="-25.4" y1="7.62" x2="-33.02" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="7.62" x2="-40.64" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="7.62" x2="-40.64" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="-33.02" y1="5.08" x2="-33.02" y2="7.62" width="0.1524" layer="91"/>
+<junction x="-33.02" y="7.62"/>
 </segment>
 </net>
 </nets>

@@ -9006,6 +9006,17 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/SMF5.0AT1-D.PDF"&g
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
+<part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
+<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
+<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
+<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1"/>
+<part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
+<part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9072,6 +9083,17 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/SMF5.0AT1-D.PDF"&g
 <instance part="R19" gate="G$1" x="-50.8" y="-53.34"/>
 <instance part="R20" gate="G$1" x="-50.8" y="-55.88"/>
 <instance part="SUPPLY15" gate="GND" x="-58.42" y="-58.42"/>
+<instance part="R21" gate="G$1" x="53.34" y="-48.26" rot="R90"/>
+<instance part="+3V6" gate="G$1" x="53.34" y="-40.64"/>
+<instance part="R22" gate="G$1" x="111.76" y="-48.26"/>
+<instance part="R23" gate="G$1" x="106.68" y="-43.18" rot="R90"/>
+<instance part="R24" gate="G$1" x="106.68" y="-53.34" rot="R90"/>
+<instance part="R25" gate="G$1" x="50.8" y="-91.44"/>
+<instance part="C18" gate="G$1" x="38.1" y="-101.6" rot="R90"/>
+<instance part="R26" gate="G$1" x="38.1" y="-109.22" rot="R180"/>
+<instance part="SUPPLY16" gate="GND" x="106.68" y="-60.96"/>
+<instance part="+3V7" gate="G$1" x="106.68" y="-35.56"/>
+<instance part="SUPPLY17" gate="GND" x="27.94" y="30.48" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -9264,6 +9286,19 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/SMF5.0AT1-D.PDF"&g
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
 <junction x="-58.42" y="-55.88"/>
 </segment>
+<segment>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="-91.44" x2="58.42" y2="-91.44" width="0.1524" layer="91"/>
+<label x="58.42" y="-91.44" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="SUPPLY16" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="SUPPLY17" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -9304,6 +9339,14 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/SMF5.0AT1-D.PDF"&g
 <wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="-2.54" y="-22.86"/>
 </segment>
+<segment>
+<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="+3V7" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="ENC_B" class="0">
 <segment>
@@ -9312,9 +9355,9 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/SMF5.0AT1-D.PDF"&g
 <label x="-50.8" y="-83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="3FG_PA7"/>
-<wire x1="27.94" y1="-50.8" x2="27.94" y2="-53.34" width="0.1524" layer="91"/>
-<label x="27.94" y="-53.34" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="IC1" gate="G$1" pin="PA6"/>
+<wire x1="25.4" y1="-50.8" x2="25.4" y2="-60.96" width="0.1524" layer="91"/>
+<label x="25.4" y="-60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="ENC_A" class="0">
@@ -9324,9 +9367,9 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/SMF5.0AT1-D.PDF"&g
 <label x="-50.8" y="-86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA6"/>
-<wire x1="25.4" y1="-50.8" x2="25.4" y2="-53.34" width="0.1524" layer="91"/>
-<label x="25.4" y="-53.34" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="IC1" gate="G$1" pin="3FG_PA7"/>
+<wire x1="27.94" y1="-50.8" x2="27.94" y2="-63.5" width="0.1524" layer="91"/>
+<label x="27.94" y="-63.5" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -9474,6 +9517,7 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/SMF5.0AT1-D.PDF"&g
 <wire x1="43.18" y1="-50.8" x2="43.18" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-53.34" x2="53.34" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="53.34" y="-53.34"/>
+<pinref part="R21" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="OP_P" class="0">
@@ -9481,6 +9525,11 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/SMF5.0AT1-D.PDF"&g
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="-53.34" x2="66.04" y2="-53.34" width="0.1524" layer="91"/>
 <label x="66.04" y="-53.34" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="-48.26" x2="119.38" y2="-48.26" width="0.1524" layer="91"/>
+<label x="119.38" y="-48.26" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -9534,6 +9583,77 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/SMF5.0AT1-D.PDF"&g
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="-55.88" y1="-43.18" x2="-76.2" y2="-43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<junction x="106.68" y="-48.26"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="-48.26" x2="88.9" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-48.26" x2="88.9" y2="-68.58" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="OP1P"/>
+<wire x1="88.9" y1="-68.58" x2="40.64" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-68.58" x2="40.64" y2="-50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="OP1N"/>
+<wire x1="45.72" y1="-91.44" x2="43.18" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-91.44" x2="38.1" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-91.44" x2="38.1" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="-101.6" x2="43.18" y2="-91.44" width="0.1524" layer="91"/>
+<junction x="43.18" y="-91.44"/>
+<pinref part="R26" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="-101.6" x2="43.18" y2="-109.22" width="0.1524" layer="91"/>
+<junction x="43.18" y="-101.6"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="R26" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="-109.22" x2="33.02" y2="-101.6" width="0.1524" layer="91"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="-101.6" x2="35.56" y2="-101.6" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="OP1O"/>
+<wire x1="35.56" y1="-50.8" x2="35.56" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-71.12" x2="35.56" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-93.98" x2="33.02" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-93.98" x2="33.02" y2="-101.6" width="0.1524" layer="91"/>
+<junction x="33.02" y="-101.6"/>
+<pinref part="IC1" gate="G$1" pin="PA3"/>
+<wire x1="35.56" y1="-71.12" x2="17.78" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-71.12" x2="17.78" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="35.56" y="-71.12"/>
+</segment>
+</net>
+<net name="NRST" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="NRST"/>
+<wire x1="7.62" y1="-15.24" x2="-12.7" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="-7.62" width="0.1524" layer="91"/>
+<label x="-12.7" y="-7.62" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="SWDIO" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PA13_SWD_IO"/>
+<wire x1="45.72" y1="27.94" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="30.48" x2="53.34" y2="30.48" width="0.1524" layer="91"/>
+<label x="53.34" y="30.48" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SWCLK" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PA14_SWD_CLK"/>
+<wire x1="43.18" y1="27.94" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="33.02" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
+<label x="53.34" y="33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

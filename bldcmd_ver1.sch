@@ -9725,7 +9725,6 @@ Source: www.kingbright.com</description>
 <part name="C16" library="rcl" deviceset="C-EU" device="C3216" value="10u"/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
-<part name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1" value="TPB1,27"/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0402"/>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0402"/>
@@ -9848,7 +9847,6 @@ Source: www.kingbright.com</description>
 <instance part="C16" gate="G$1" x="-73.66" y="0"/>
 <instance part="SUPPLY12" gate="GND" x="-73.66" y="-7.62"/>
 <instance part="+3V5" gate="G$1" x="-2.54" y="-5.08"/>
-<instance part="TP8" gate="G$1" x="-27.94" y="5.08"/>
 <instance part="SUPPLY13" gate="GND" x="-2.54" y="-33.02"/>
 <instance part="R14" gate="G$1" x="78.74" y="-53.34"/>
 <instance part="C17" gate="G$1" x="73.66" y="-55.88"/>
@@ -10412,8 +10410,6 @@ Source: www.kingbright.com</description>
 <wire x1="-20.32" y1="2.54" x2="-27.94" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <junction x="-20.32" y="2.54"/>
-<pinref part="TP8" gate="G$1" pin="TP"/>
-<junction x="-27.94" y="2.54"/>
 </segment>
 </net>
 <net name="+12V" class="0">

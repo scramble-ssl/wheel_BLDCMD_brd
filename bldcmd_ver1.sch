@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -309,25 +309,6 @@ PSMN2R4-30MLDC ©  Nexperia B.V. 2017. All rights reserved</description>
 <wire x1="3.75" y1="3.025" x2="2.35" y2="3.025" width="0.2" layer="21"/>
 <circle x="-1.712" y="3.974" radius="0.044" width="0.2" layer="21"/>
 </package>
-<package name="ES9P002VFZ">
-<smd name="2" x="1.5" y="-0.65" dx="1.3" dy="0.7" layer="1" rot="R90"/>
-<smd name="1" x="-1.5" y="-0.65" dx="1.3" dy="0.7" layer="1" rot="R90"/>
-<wire x1="-1" y1="-0.95" x2="1" y2="-0.95" width="0.127" layer="21"/>
-<smd name="3" x="-5.1" y="-8.775" dx="1.85" dy="1.5" layer="1" rot="R90"/>
-<smd name="4" x="5.1" y="-8.775" dx="1.85" dy="1.5" layer="1" rot="R90"/>
-<wire x1="-2" y1="-0.95" x2="-5.4" y2="-0.95" width="0.127" layer="21"/>
-<wire x1="-5.4" y1="-0.95" x2="-5.4" y2="-7.75" width="0.127" layer="21"/>
-<wire x1="1.95" y1="-0.95" x2="5.4" y2="-0.95" width="0.127" layer="21"/>
-<wire x1="5.4" y1="-0.95" x2="5.4" y2="-7.75" width="0.127" layer="21"/>
-<wire x1="5.4" y1="-9.9" x2="-5.4" y2="-9.9" width="0.127" layer="21"/>
-<wire x1="-5.4" y1="-9.9" x2="-5.4" y2="-9.8" width="0.127" layer="21"/>
-<wire x1="5.4" y1="-9.8" x2="5.4" y2="-9.9" width="0.127" layer="21"/>
-<text x="-2.54" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
-<wire x1="-5.4" y1="-0.95" x2="5.4" y2="-0.95" width="0.127" layer="51"/>
-<wire x1="5.4" y1="-0.95" x2="5.4" y2="-9.9" width="0.127" layer="51"/>
-<wire x1="5.4" y1="-9.9" x2="-5.4" y2="-9.9" width="0.127" layer="51"/>
-<wire x1="-5.4" y1="-9.9" x2="-5.4" y2="-0.95" width="0.127" layer="51"/>
-</package>
 <package name="SOT89R">
 <description>&lt;b&gt;SOT89 Reflow soldering&lt;/b&gt;</description>
 <wire x1="2.2724" y1="1.6104" x2="2.2724" y2="-1.1104" width="0.1524" layer="51"/>
@@ -506,16 +487,6 @@ PSMN2R4-30MLDC ©  Nexperia B.V. 2017. All rights reserved</description>
 <pin name="1" x="0" y="0" length="middle" direction="pas"/>
 <pin name="3" x="0" y="-5.08" length="middle" direction="pas"/>
 <pin name="2" x="0" y="-2.54" length="middle" direction="pas"/>
-</symbol>
-<symbol name="ES9P002VFZ">
-<wire x1="-2.54" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<text x="2.54" y="7.62" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="2.54" y="-5.08" size="1.778" layer="96" align="center">&gt;VALUE</text>
-<pin name="1" x="-7.62" y="2.54" length="middle" direction="pas"/>
-<pin name="2" x="-7.62" y="0" length="middle" direction="pas"/>
 </symbol>
 <symbol name="78XX">
 <wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
@@ -770,22 +741,6 @@ Source: &lt;a href="http://www.mouser.com/ds/2/185/DF65_catalog-939162.pdf"&gt; 
 <attribute name="RS_PART_NUMBER" value="8735164" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="RS" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ES9P002VFZ">
-<gates>
-<gate name="G$1" symbol="ES9P002VFZ" x="2.54" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="ES9P002VFZ">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -9646,6 +9601,75 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SamacSys_Parts">
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="DF61-2P-2.2V">
+<description>&lt;b&gt;DF61-2P-2.2V&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="0.3" y="5.1" dx="1.7" dy="1.15" layer="1" rot="R90"/>
+<smd name="2" x="4.8" y="5.1" dx="1.7" dy="1.15" layer="1" rot="R90"/>
+<smd name="3" x="0.4" y="0.82" dx="1.35" dy="1.24" layer="1"/>
+<smd name="4" x="4.7" y="0.82" dx="1.35" dy="1.24" layer="1"/>
+<text x="2.266" y="3.642" size="1.27" layer="25" align="center">&gt;NAME</text>
+<wire x1="0" y1="7.35" x2="5.1" y2="7.35" width="0.254" layer="51"/>
+<wire x1="5.1" y1="7.35" x2="5.1" y2="0" width="0.254" layer="51"/>
+<wire x1="5.1" y1="0" x2="0" y2="0" width="0.254" layer="51"/>
+<wire x1="0" y1="0" x2="0" y2="7.35" width="0.254" layer="51"/>
+<wire x1="0" y1="7.35" x2="5.1" y2="7.35" width="0.254" layer="25"/>
+<wire x1="5.1" y1="7.35" x2="5.1" y2="6.218" width="0.254" layer="25"/>
+<wire x1="0" y1="7.35" x2="0" y2="6.247" width="0.254" layer="25"/>
+<wire x1="0" y1="0" x2="5.1" y2="0" width="0.254" layer="25"/>
+<wire x1="5.1" y1="3.922" x2="5.1" y2="1.862" width="0.254" layer="25"/>
+<wire x1="0" y1="3.872" x2="0" y2="1.812" width="0.254" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DF61-2P-2.2V(23)">
+<wire x1="5.08" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="10.16" y="5.08" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="10.16" y="-7.62" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle" direction="pas"/>
+<pin name="2" x="0" y="-2.54" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DF61-2P-2.2V(23)" prefix="J">
+<description>&lt;b&gt;Hirose DF61 Series, 2.2mm Pitch, 2 Way 1 Row Shrouded Straight PCB Header, Solder Termination&lt;/b&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;&lt;a href="&lt;br&gt;&lt;a href="https://componentsearchengine.com/Images/3/DF61-2P-2.2V%2823%29.jpg" title="Image"&gt;
+&lt;img src="https://componentsearchengine.com/Images/3/DF61-2P-2.2V%2823%29.jpg" width="150"&gt;&lt;/a&gt;&lt;p&gt;
+Source: &lt;a href="https://www.hirose.com/product/download/?distributor=digikey&amp;type=2d&amp;lang=en&amp;num=DF61-2P-2.2V(23)"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DF61-2P-2.2V(23)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DF61-2P-2.2V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="3D_PACKAGE" value="" constant="no"/>
+<attribute name="ALLIED_NUMBER" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Hirose DF61 Series, 2.2mm Pitch, 2 Way 1 Row Shrouded Straight PCB Header, Solder Termination" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Hirose" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="DF61-2P-2.2V(23)" constant="no"/>
+<attribute name="OTHER_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="7922837P" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="RS" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9714,7 +9738,7 @@ Source: www.kingbright.com</description>
 <part name="J1" library="rcssl_lib" deviceset="DF65-3P-1.7V(21)" device=""/>
 <part name="D1" library="diode" deviceset="SMF5.0AT1" device=""/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0603K" value="0.1u"/>
-<part name="U$1" library="rcssl_lib" deviceset="ES9P002VFZ" device=""/>
+<part name="U$1" library="SamacSys_Parts" deviceset="DF61-2P-2.2V(23)" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+12V" device=""/>
 <part name="P+2" library="supply1" deviceset="+12V" device=""/>
@@ -9838,7 +9862,7 @@ Source: www.kingbright.com</description>
 <instance part="D1" gate="G$1" x="-48.26" y="-25.4" rot="R90"/>
 <instance part="C12" gate="G$1" x="-2.54" y="-25.4"/>
 <instance part="U$1" gate="G$1" x="88.9" y="63.5" rot="MR180"/>
-<instance part="SUPPLY11" gate="GND" x="81.28" y="55.88"/>
+<instance part="SUPPLY11" gate="GND" x="81.28" y="60.96"/>
 <instance part="P+1" gate="1" x="81.28" y="68.58"/>
 <instance part="P+3" gate="1" x="-35.56" y="5.08" rot="MR0"/>
 <instance part="C13" gate="G$1" x="-45.72" y="0"/>
@@ -10074,7 +10098,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
-<wire x1="81.28" y1="60.96" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="63.5" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -10415,7 +10439,7 @@ Source: www.kingbright.com</description>
 <net name="+12V" class="0">
 <segment>
 <pinref part="P+1" gate="1" pin="+12V"/>
-<wire x1="81.28" y1="63.5" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="2"/>
 </segment>
 <segment>

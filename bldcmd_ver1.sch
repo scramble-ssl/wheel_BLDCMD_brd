@@ -289,26 +289,6 @@ PSMN2R4-30MLDC ©  Nexperia B.V. 2017. All rights reserved</description>
 <wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.1" layer="25"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="25"/>
 </package>
-<package name="DF65-3P-1.7V(21)">
-<description>&lt;b&gt;DF65-3P-1.7V(21)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.7" y="3.025" dx="1" dy="0.6" layer="1" rot="R90"/>
-<smd name="2" x="0" y="3.025" dx="1" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="1.7" y="3.025" dx="1" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="-3.075" y="-2.025" dx="1.8" dy="0.7" layer="1" rot="R90"/>
-<smd name="5" x="3.075" y="-2.025" dx="1.8" dy="0.7" layer="1" rot="R90"/>
-<text x="-0.311" y="-0.463" size="1.27" layer="25" align="center">&gt;NAME</text>
-<wire x1="-3.75" y1="3.025" x2="3.75" y2="3.025" width="0.2" layer="51"/>
-<wire x1="3.75" y1="3.025" x2="3.75" y2="-3.025" width="0.2" layer="51"/>
-<wire x1="3.75" y1="-3.025" x2="-3.75" y2="-3.025" width="0.2" layer="51"/>
-<wire x1="-3.75" y1="-3.025" x2="-3.75" y2="3.025" width="0.2" layer="51"/>
-<wire x1="-3.75" y1="3.025" x2="-3.75" y2="-3.025" width="0.2" layer="21"/>
-<wire x1="3.75" y1="3.025" x2="3.75" y2="-3.025" width="0.2" layer="21"/>
-<wire x1="-2" y1="-3.025" x2="2" y2="-3.025" width="0.2" layer="21"/>
-<wire x1="-3.75" y1="3.025" x2="-2.35" y2="3.025" width="0.2" layer="21"/>
-<wire x1="3.75" y1="3.025" x2="2.35" y2="3.025" width="0.2" layer="21"/>
-<circle x="-1.712" y="3.974" radius="0.044" width="0.2" layer="21"/>
-</package>
 <package name="SOT89R">
 <description>&lt;b&gt;SOT89 Reflow soldering&lt;/b&gt;</description>
 <wire x1="2.2724" y1="1.6104" x2="2.2724" y2="-1.1104" width="0.1524" layer="51"/>
@@ -476,17 +456,6 @@ PSMN2R4-30MLDC ©  Nexperia B.V. 2017. All rights reserved</description>
 <wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-180"/>
 <wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-180"/>
-</symbol>
-<symbol name="DF65-3P-1.7V(21)">
-<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="2.54" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<text x="10.16" y="5.08" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="10.16" y="-10.16" size="1.778" layer="96" align="center">&gt;VALUE</text>
-<pin name="1" x="0" y="0" length="middle" direction="pas"/>
-<pin name="3" x="0" y="-5.08" length="middle" direction="pas"/>
-<pin name="2" x="0" y="-2.54" length="middle" direction="pas"/>
 </symbol>
 <symbol name="78XX">
 <wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
@@ -708,37 +677,6 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1875284.pdf"&gt; Datasheet
 <attribute name="MANUFACTURER_PART_NUMBER" value="SRN3015-220M" constant="no"/>
 <attribute name="OTHER_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="7435087" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="RS" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="DF65-3P-1.7V(21)" prefix="J">
-<description>&lt;b&gt;Hirose DF Series, Series Number 65, 1.7mm Pitch 3 Way 1 Row Straight PCB Header, Solder Termination, 4A&lt;/b&gt;&lt;p&gt;
-&lt;/b&gt;&lt;br&gt;&lt;a href="&lt;br&gt;&lt;a href="http://uk.rs-online.com/largeimages/R8735173-01.jpg" title="Image"&gt;
-&lt;img src="http://uk.rs-online.com/largeimages/R8735173-01.jpg" width="150"&gt;&lt;/a&gt;&lt;p&gt;
-Source: &lt;a href="http://www.mouser.com/ds/2/185/DF65_catalog-939162.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="DF65-3P-1.7V(21)" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DF65-3P-1.7V(21)">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="3D_PACKAGE" value="" constant="no"/>
-<attribute name="ALLIED_NUMBER" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="Hirose DF Series, Series Number 65, 1.7mm Pitch 3 Way 1 Row Straight PCB Header, Solder Termination, 4A" constant="no"/>
-<attribute name="HEIGHT" value="mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Hirose" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="DF65-3P-1.7V(21)" constant="no"/>
-<attribute name="OTHER_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="8735164" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="RS" constant="no"/>
 </technology>
 </technologies>
@@ -11040,9 +10978,7 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SamacSys_Parts">
-<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<library name="scramble-con-hirose">
 <packages>
 <package name="DF61-2P-2.2V">
 <description>&lt;b&gt;DF61-2P-2.2V&lt;/b&gt;&lt;br&gt;
@@ -11064,17 +11000,50 @@ Source: www.kingbright.com</description>
 <wire x1="-2.55" y1="0.712" x2="-2.55" y2="-1.848" width="0.2" layer="21"/>
 <text x="-2.6" y="-4.6" size="1.27" layer="27" font="vector" ratio="12">&gt;VALUE</text>
 </package>
+<package name="DF65-3P-1.7V">
+<description>&lt;b&gt;DF65-3P-1.7V&lt;/b&gt;&lt;br&gt;</description>
+<smd name="1" x="-1.7" y="3.025" dx="1" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="0" y="3.025" dx="1" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="1.7" y="3.025" dx="1" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="-3.075" y="-2.025" dx="1.8" dy="0.7" layer="1" rot="R90"/>
+<smd name="5" x="3.075" y="-2.025" dx="1.8" dy="0.7" layer="1" rot="R90"/>
+<text x="-3.8" y="-4.5" size="1.27" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<wire x1="-3.75" y1="3.025" x2="3.75" y2="3.025" width="0.2" layer="51"/>
+<wire x1="3.75" y1="3.025" x2="3.75" y2="-3.025" width="0.2" layer="51"/>
+<wire x1="3.75" y1="-3.025" x2="-3.75" y2="-3.025" width="0.2" layer="51"/>
+<wire x1="-3.75" y1="-3.025" x2="-3.75" y2="3.025" width="0.2" layer="51"/>
+<wire x1="-3.75" y1="3.025" x2="-3.75" y2="-3.025" width="0.2" layer="21"/>
+<wire x1="3.75" y1="3.025" x2="3.75" y2="-3.025" width="0.2" layer="21"/>
+<wire x1="-2.6" y1="-3.025" x2="2.6" y2="-3.025" width="0.2" layer="21"/>
+<wire x1="-3.75" y1="3.025" x2="-2.15" y2="3.025" width="0.2" layer="21"/>
+<wire x1="3.75" y1="3.025" x2="2.15" y2="3.025" width="0.2" layer="21"/>
+<circle x="-1.712" y="3.974" radius="0.044" width="0.2" layer="21"/>
+<wire x1="1.25" y1="3.025" x2="0.45" y2="3.025" width="0.2" layer="21"/>
+<wire x1="-0.45" y1="3.025" x2="-1.25" y2="3.025" width="0.2" layer="21"/>
+<text x="2.3" y="-4.5" size="1.27" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
-<symbol name="DF61-2P-2.2V(23)">
-<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<text x="-2.54" y="6.35" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<symbol name="CON-1X2">
+<wire x1="-3.81" y1="-5.08" x2="3.81" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="-3.81" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-3.81" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="0" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+<symbol name="CON-1X3">
+<wire x1="-3.81" y1="-5.08" x2="3.81" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="-3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-3.81" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="0" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="0" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -11084,7 +11053,7 @@ Source: www.kingbright.com</description>
 &lt;img src="https://componentsearchengine.com/Images/3/DF61-2P-2.2V%2823%29.jpg" width="150"&gt;&lt;/a&gt;&lt;p&gt;
 Source: &lt;a href="https://www.hirose.com/product/download/?distributor=digikey&amp;type=2d&amp;lang=en&amp;num=DF61-2P-2.2V(23)"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="DF61-2P-2.2V(23)" x="0" y="0"/>
+<gate name="G$1" symbol="CON-1X2" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="DF61-2P-2.2V">
@@ -11102,6 +11071,37 @@ Source: &lt;a href="https://www.hirose.com/product/download/?distributor=digikey
 <attribute name="MANUFACTURER_PART_NUMBER" value="DF61-2P-2.2V(23)" constant="no"/>
 <attribute name="OTHER_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="7922837P" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="RS" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DF65-3P-1.7V(21)" prefix="CN">
+<description>&lt;b&gt;Hirose DF Series, Series Number 65, 1.7mm Pitch 3 Way 1 Row Straight PCB Header, Solder Termination, 4A&lt;/b&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;&lt;a href="&lt;br&gt;&lt;a href="http://uk.rs-online.com/largeimages/R8735173-01.jpg" title="Image"&gt;
+&lt;img src="http://uk.rs-online.com/largeimages/R8735173-01.jpg" width="150"&gt;&lt;/a&gt;&lt;p&gt;
+Source: &lt;a href="http://www.mouser.com/ds/2/185/DF65_catalog-939162.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CON-1X3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DF65-3P-1.7V">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="3D_PACKAGE" value="" constant="no"/>
+<attribute name="ALLIED_NUMBER" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Hirose DF Series, Series Number 65, 1.7mm Pitch 3 Way 1 Row Straight PCB Header, Solder Termination, 4A" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Hirose" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="DF65-3P-1.7V(21)" constant="no"/>
+<attribute name="OTHER_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="8735164" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="RS" constant="no"/>
 </technology>
 </technologies>
@@ -11175,7 +11175,7 @@ Source: &lt;a href="https://www.hirose.com/product/download/?distributor=digikey
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206K" package3d_urn="urn:adsk.eagle:package:23682/2" value="47u"/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J1" library="rcssl_lib" deviceset="DF65-3P-1.7V(21)" device=""/>
+<part name="J1" library="scramble-con-hirose" deviceset="DF65-3P-1.7V(21)" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SMF5.0AT1" device="" package3d_urn="urn:adsk.eagle:package:43458/1"/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1u"/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -11260,7 +11260,7 @@ Source: &lt;a href="https://www.hirose.com/product/download/?distributor=digikey
 <part name="H6" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="H7" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="H8" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
-<part name="CN1" library="SamacSys_Parts" deviceset="DF61-2P-2.2V(23)" device=""/>
+<part name="CN1" library="scramble-con-hirose" deviceset="DF61-2P-2.2V(23)" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11382,7 +11382,7 @@ Source: &lt;a href="https://www.hirose.com/product/download/?distributor=digikey
 <instance part="H6" gate="G$1" x="111.76" y="78.74"/>
 <instance part="H7" gate="G$1" x="111.76" y="83.82"/>
 <instance part="H8" gate="G$1" x="111.76" y="88.9"/>
-<instance part="CN1" gate="G$1" x="83.82" y="81.28" rot="MR180"/>
+<instance part="CN1" gate="G$1" x="86.36" y="78.74" rot="MR180"/>
 </instances>
 <busses>
 </busses>
@@ -11678,7 +11678,7 @@ Source: &lt;a href="https://www.hirose.com/product/download/?distributor=digikey
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
 <wire x1="76.2" y1="78.74" x2="76.2" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="CN1" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="78.74" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="78.74" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -11931,7 +11931,7 @@ Source: &lt;a href="https://www.hirose.com/product/download/?distributor=digikey
 <pinref part="P+1" gate="1" pin="+12V"/>
 <wire x1="76.2" y1="81.28" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="CN1" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="81.28" x2="86.36" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -12207,7 +12207,7 @@ Source: &lt;a href="https://www.hirose.com/product/download/?distributor=digikey
 <instance part="C6" gate="G$1" x="193.04" y="71.12"/>
 <instance part="R13" gate="G$1" x="96.52" y="22.86" rot="R90"/>
 <instance part="SUPPLY1" gate="GND" x="96.52" y="10.16"/>
-<instance part="J1" gate="G$1" x="236.22" y="55.88" rot="MR180"/>
+<instance part="J1" gate="G$1" x="236.22" y="58.42" rot="MR180"/>
 <instance part="P+2" gate="1" x="96.52" y="96.52"/>
 </instances>
 <busses>

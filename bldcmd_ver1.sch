@@ -11384,7 +11384,7 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <instance part="CN3" gate="G$1" x="-147.32" y="50.8" rot="R180"/>
 <instance part="CN4" gate="G$1" x="-147.32" y="30.48" rot="R180"/>
 <instance part="CN5" gate="G$1" x="-116.84" y="-48.26" rot="R180"/>
-<instance part="CN6" gate="G$1" x="-116.84" y="-86.36" rot="R180"/>
+<instance part="CN6" gate="G$1" x="-124.46" y="-86.36" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -11682,6 +11682,7 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 </segment>
 <segment>
 <pinref part="SUPPLY21" gate="GND" pin="GND"/>
+<wire x1="-124.46" y1="-86.36" x2="-116.84" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="CN6" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -11740,7 +11741,8 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 </segment>
 <segment>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
-<pinref part="CN6" gate="G$1" pin="5"/>
+<wire x1="-124.46" y1="-81.28" x2="-116.84" y2="-81.28" width="0.1524" layer="91"/>
+<pinref part="CN6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -12060,9 +12062,9 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <label x="-15.24" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-116.84" y1="-91.44" x2="-109.22" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="-91.44" x2="-109.22" y2="-91.44" width="0.1524" layer="91"/>
 <label x="-109.22" y="-91.44" size="1.778" layer="95" xref="yes"/>
-<pinref part="CN6" gate="G$1" pin="1"/>
+<pinref part="CN6" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="SW1" gate="G$1" pin="3"/>
@@ -12086,9 +12088,9 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <label x="55.88" y="33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-116.84" y1="-88.9" x2="-109.22" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="-88.9" x2="-109.22" y2="-88.9" width="0.1524" layer="91"/>
 <label x="-109.22" y="-88.9" size="1.778" layer="95" xref="yes"/>
-<pinref part="CN6" gate="G$1" pin="2"/>
+<pinref part="CN6" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -12099,9 +12101,9 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <label x="45.72" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-116.84" y1="-83.82" x2="-109.22" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="-83.82" x2="-109.22" y2="-83.82" width="0.1524" layer="91"/>
 <label x="-109.22" y="-83.82" size="1.778" layer="95" xref="yes"/>
-<pinref part="CN6" gate="G$1" pin="4"/>
+<pinref part="CN6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$29" class="0">

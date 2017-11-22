@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="15" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="11" fill="7" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="13" fill="7" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="15" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="11" fill="7" visible="no" active="no"/>
+<layer number="26" name="bNames" color="13" fill="7" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,16 +54,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="11" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="11" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -212,19 +212,6 @@ PSMN2R4-30MLDC ©  Nexperia B.V. 2017. All rights reserved</description>
 <wire x1="-1.5" y1="0.75" x2="-0.75" y2="1.5" width="0.1" layer="51"/>
 <circle x="-1.875" y="1.4" radius="0.125" width="0.25" layer="25"/>
 </package>
-<package name="SRN3015">
-<description>&lt;b&gt;SRN3015&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="0" y="-1.1" dx="2.7" dy="1" layer="1"/>
-<smd name="2" x="0" y="1.1" dx="2.7" dy="1" layer="1"/>
-<text x="0" y="-1.1" size="1.27" layer="25" align="center">&gt;NAME</text>
-<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.2" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.2" layer="51"/>
-<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.2" layer="51"/>
-<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.2" layer="51"/>
-<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.1" layer="25"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="25"/>
-</package>
 </packages>
 <symbols>
 <symbol name="HEXFET_N">
@@ -300,16 +287,6 @@ PSMN2R4-30MLDC ©  Nexperia B.V. 2017. All rights reserved</description>
 <pin name="VCC" x="35.56" y="-2.54" length="middle" direction="pas" rot="R180"/>
 <pin name="B" x="35.56" y="-5.08" length="middle" direction="pas" rot="R180"/>
 <pin name="A" x="35.56" y="-7.62" length="middle" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="SRN3015-220M">
-<pin name="1" x="0" y="0" visible="off" length="middle"/>
-<pin name="2" x="20.32" y="0" visible="off" length="middle" rot="R180"/>
-<text x="10.16" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="10.16" y="-1.27" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
-<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -410,36 +387,6 @@ Source: &lt;a href="http://www.analog.com/media/en/technical-documentation/data-
 <attribute name="MANUFACTURER_PART_NUMBER" value="ADM4852ACPZ-REEL7" constant="no"/>
 <attribute name="OTHER_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="RS" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SRN3015-220M" prefix="L">
-<description>&lt;b&gt;Power Inductor semi-shielded SMD 22uH Bourns SRN3015 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 22 H 20% Wire-Wound 600mA Idc&lt;/b&gt;&lt;p&gt;
-&lt;/b&gt;&lt;br&gt;&lt;a href="&lt;br&gt;&lt;a href="https://componentsearchengine.com/Images/1/SRN3015-220M.jpg" title="Image"&gt;
-&lt;img src="https://componentsearchengine.com/Images/1/SRN3015-220M.jpg" width="150"&gt;&lt;/a&gt;&lt;p&gt;
-Source: &lt;a href="http://www.farnell.com/datasheets/1875284.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="SRN3015-220M" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SRN3015">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="3D_PACKAGE" value="" constant="no"/>
-<attribute name="ALLIED_NUMBER" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="Power Inductor semi-shielded SMD 22uH Bourns SRN3015 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 22 H 20% Wire-Wound 600mA Idc" constant="no"/>
-<attribute name="HEIGHT" value="mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SRN3015-220M" constant="no"/>
-<attribute name="OTHER_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="7435087" constant="no"/>
 <attribute name="SUPPLIER_NAME" value="RS" constant="no"/>
 </technology>
 </technologies>
@@ -10824,6 +10771,20 @@ Source: &lt;a href="http://www.mouser.com/ds/2/185/DF65_catalog-939162.pdf"&gt; 
 <rectangle x1="-0.35" y1="-2.3" x2="0.35" y2="-1.2" layer="31"/>
 <rectangle x1="-0.45" y1="-2.4" x2="0.45" y2="-1.1" layer="29"/>
 </package>
+<package name="SRN3015">
+<description>&lt;b&gt;SRN3015&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="0" y="-1.1" dx="2.7" dy="1" layer="1"/>
+<smd name="2" x="0" y="1.1" dx="2.7" dy="1" layer="1"/>
+<text x="0" y="2.456" size="1.27" layer="25" ratio="12" align="center">&gt;NAME</text>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.1524" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.1524" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1524" layer="21"/>
+<text x="0" y="-2.37" size="1.27" layer="27" ratio="12" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="STSPIN32F0A">
@@ -10897,6 +10858,16 @@ Source: &lt;a href="http://www.mouser.com/ds/2/185/DF65_catalog-939162.pdf"&gt; 
 <pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
 <pin name="GND" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
 <pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="SRN3015-220M">
+<pin name="1" x="0" y="0" visible="off" length="middle"/>
+<pin name="2" x="20.32" y="0" visible="off" length="middle" rot="R180"/>
+<text x="10.16" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="10.16" y="-1.27" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -10998,6 +10969,36 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SRN3015-220M" prefix="L">
+<description>&lt;b&gt;Power Inductor semi-shielded SMD 22uH Bourns SRN3015 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 22 H 20% Wire-Wound 600mA Idc&lt;/b&gt;&lt;p&gt;
+&lt;/b&gt;&lt;br&gt;&lt;a href="&lt;br&gt;&lt;a href="https://componentsearchengine.com/Images/1/SRN3015-220M.jpg" title="Image"&gt;
+&lt;img src="https://componentsearchengine.com/Images/1/SRN3015-220M.jpg" width="150"&gt;&lt;/a&gt;&lt;p&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/1875284.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SRN3015-220M" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SRN3015">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="3D_PACKAGE" value="" constant="no"/>
+<attribute name="ALLIED_NUMBER" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Power Inductor semi-shielded SMD 22uH Bourns SRN3015 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 22 H 20% Wire-Wound 600mA Idc" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SRN3015-220M" constant="no"/>
+<attribute name="OTHER_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="7435087" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="RS" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -11142,21 +11143,21 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 </classes>
 <parts>
 <part name="IC1" library="scramble-mcu" deviceset="STSPIN32F0A" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1u"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1u"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1u"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="20"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="20"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="20"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="20"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="20"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="20"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="10k"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="10k"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="10k"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="10k"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="10k"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="10k"/>
 <part name="Q1" library="rcssl_lib" deviceset="PSMN2R4-30MLD" device=""/>
 <part name="Q2" library="rcssl_lib" deviceset="PSMN2R4-30MLD" device=""/>
 <part name="Q3" library="rcssl_lib" deviceset="PSMN2R4-30MLD" device=""/>
@@ -11182,7 +11183,7 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="L1" library="rcssl_lib" deviceset="SRN3015-220M" device=""/>
+<part name="L1" library="scramble-mcu" deviceset="SRN3015-220M" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1u"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="10u"/>
@@ -11205,18 +11206,18 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
-<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="15k"/>
+<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100p"/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
+<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="NP"/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
-<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
-<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
-<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
-<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1"/>
-<part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1"/>
+<part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="560"/>
+<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="8.2k"/>
+<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="560"/>
+<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="1k"/>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100p"/>
+<part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="15k"/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -11239,9 +11240,9 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1"/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1"/>
-<part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
+<part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
+<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
+<part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -11274,10 +11275,11 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <part name="H8" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="CN1" library="scramble-con-hirose" deviceset="DF61-2P-2.2V(23)" device=""/>
 <part name="CN2" library="scramble-con-hirose" deviceset="DF65-3P-1.7V(21)" device=""/>
-<part name="CN4" library="scramble-con-jst" deviceset="?M04B-SRSS-TB" device="S"/>
 <part name="CN6" library="scramble-con-jst" deviceset="?M05B-SRSS-TB" device="S"/>
 <part name="CN7" library="scramble-con-jst" deviceset="?M04B-SRSS-TB" device="S"/>
 <part name="CN3" library="scramble-con-jst" deviceset="?M05B-SRSS-TB" device="S"/>
+<part name="CN5" library="scramble-con-jst" deviceset="?M04B-SRSS-TB" device="S"/>
+<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT60J" device="" package3d_urn="urn:adsk.eagle:package:43461/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -11324,12 +11326,12 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <instance part="SUPPLY12" gate="GND" x="-73.66" y="-7.62"/>
 <instance part="+3V5" gate="G$1" x="-2.54" y="-5.08"/>
 <instance part="SUPPLY13" gate="GND" x="-2.54" y="-33.02"/>
-<instance part="R14" gate="G$1" x="175.26" y="-22.86"/>
-<instance part="C17" gate="G$1" x="167.64" y="-27.94"/>
-<instance part="SUPPLY14" gate="GND" x="167.64" y="-38.1"/>
+<instance part="R14" gate="G$1" x="63.5" y="-127"/>
+<instance part="C17" gate="G$1" x="55.88" y="-132.08"/>
+<instance part="SUPPLY14" gate="GND" x="55.88" y="-142.24"/>
 <instance part="SUPPLY15" gate="GND" x="-48.26" y="-68.58"/>
-<instance part="R21" gate="G$1" x="167.64" y="-15.24" rot="R90"/>
-<instance part="+3V6" gate="G$1" x="167.64" y="-5.08"/>
+<instance part="R21" gate="G$1" x="55.88" y="-119.38" rot="R90"/>
+<instance part="+3V6" gate="G$1" x="55.88" y="-109.22"/>
 <instance part="R22" gate="G$1" x="60.96" y="-76.2"/>
 <instance part="R23" gate="G$1" x="53.34" y="-71.12" rot="R90"/>
 <instance part="R24" gate="G$1" x="53.34" y="-81.28" rot="R90"/>
@@ -11339,13 +11341,13 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <instance part="SUPPLY16" gate="GND" x="53.34" y="-88.9"/>
 <instance part="+3V7" gate="G$1" x="53.34" y="-63.5"/>
 <instance part="SUPPLY17" gate="GND" x="27.94" y="30.48" rot="R180"/>
-<instance part="SUPPLY18" gate="GND" x="-137.16" y="27.94" rot="R90"/>
-<instance part="SUPPLY19" gate="GND" x="-129.54" y="55.88" rot="R90"/>
+<instance part="SUPPLY18" gate="GND" x="-139.7" y="33.02" rot="R90"/>
+<instance part="SUPPLY19" gate="GND" x="-139.7" y="55.88" rot="R90"/>
 <instance part="SUPPLY20" gate="GND" x="-114.3" y="-58.42"/>
 <instance part="SUPPLY21" gate="GND" x="-114.3" y="-86.36" rot="R90"/>
 <instance part="+3V8" gate="G$1" x="-114.3" y="-81.28" rot="R270"/>
 <instance part="P+4" gate="1" x="-152.4" y="10.16"/>
-<instance part="SUPPLY22" gate="GND" x="-137.16" y="-7.62"/>
+<instance part="SUPPLY22" gate="GND" x="-137.16" y="-12.7"/>
 <instance part="C19" gate="G$1" x="-124.46" y="-2.54"/>
 <instance part="P+5" gate="1" x="-114.3" y="-27.94"/>
 <instance part="P+6" gate="1" x="-124.46" y="66.04"/>
@@ -11353,7 +11355,7 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <instance part="SUPPLY23" gate="GND" x="-124.46" y="-12.7"/>
 <instance part="C20" gate="G$1" x="-152.4" y="-2.54"/>
 <instance part="SUPPLY24" gate="GND" x="-152.4" y="-12.7"/>
-<instance part="D2" gate="G$1" x="-134.62" y="53.34"/>
+<instance part="D2" gate="G$1" x="-132.08" y="53.34"/>
 <instance part="+3V9" gate="G$1" x="-86.36" y="-10.16"/>
 <instance part="LED1" gate="G$1" x="-86.36" y="-15.24"/>
 <instance part="LED2" gate="G$1" x="-111.76" y="2.54"/>
@@ -11392,10 +11394,11 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <instance part="H7" gate="G$1" x="111.76" y="83.82"/>
 <instance part="H8" gate="G$1" x="111.76" y="88.9"/>
 <instance part="CN1" gate="G$1" x="86.36" y="78.74" rot="MR180"/>
-<instance part="CN4" gate="G$1" x="-147.32" y="30.48" rot="R180"/>
 <instance part="CN6" gate="G$1" x="-124.46" y="-86.36" rot="MR0"/>
-<instance part="CN7" gate="G$1" x="-157.48" y="53.34" rot="MR0"/>
+<instance part="CN7" gate="G$1" x="-147.32" y="53.34" rot="MR0"/>
 <instance part="CN3" gate="G$1" x="-116.84" y="-48.26" rot="MR0"/>
+<instance part="CN5" gate="G$1" x="-147.32" y="30.48" rot="MR0"/>
+<instance part="D3" gate="G$1" x="-132.08" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -11597,7 +11600,7 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <segment>
 <pinref part="C17" gate="G$1" pin="2"/>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
-<wire x1="167.64" y1="-35.56" x2="167.64" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-139.7" x2="55.88" y2="-137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R25" gate="G$1" pin="2"/>
@@ -11620,7 +11623,7 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
-<wire x1="-157.48" y1="55.88" x2="-132.08" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="55.88" x2="-142.24" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="CN7" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -11648,6 +11651,7 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <segment>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
 <pinref part="U$6" gate="G$1" pin="GND"/>
+<wire x1="-137.16" y1="-10.16" x2="-137.16" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
@@ -11694,9 +11698,9 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <pinref part="CN6" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="CN4" gate="G$1" pin="1"/>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
-<wire x1="-147.32" y1="27.94" x2="-139.7" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="33.02" x2="-142.24" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="CN5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -11742,7 +11746,7 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <segment>
 <pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
-<wire x1="167.64" y1="-7.62" x2="167.64" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-111.76" x2="55.88" y2="-114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R23" gate="G$1" pin="2"/>
@@ -11819,9 +11823,9 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <label x="-68.58" y="48.26" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="-111.76" y="35.56" size="1.778" layer="95" xref="yes"/>
-<pinref part="CN4" gate="G$1" pin="4"/>
-<wire x1="-111.76" y1="35.56" x2="-147.32" y2="35.56" width="0.1524" layer="91"/>
+<label x="-111.76" y="25.4" size="1.778" layer="95" xref="yes"/>
+<wire x1="-111.76" y1="25.4" x2="-147.32" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="CN5" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="UART_RX" class="0">
@@ -11837,9 +11841,9 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <label x="-68.58" y="55.88" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="-111.76" y="33.02" size="1.778" layer="95" xref="yes"/>
-<pinref part="CN4" gate="G$1" pin="3"/>
-<wire x1="-111.76" y1="33.02" x2="-147.32" y2="33.02" width="0.1524" layer="91"/>
+<label x="-111.76" y="27.94" size="1.778" layer="95" xref="yes"/>
+<wire x1="-111.76" y1="27.94" x2="-147.32" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="CN5" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="RTS" class="0">
@@ -11950,19 +11954,19 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="C17" gate="G$1" pin="1"/>
 <pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="-20.32" x2="167.64" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="-22.86" x2="167.64" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="-22.86" x2="167.64" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="167.64" y="-22.86"/>
-<wire x1="167.64" y1="-22.86" x2="165.1" y2="-22.86" width="0.1524" layer="91"/>
-<label x="165.1" y="-22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="55.88" y1="-124.46" x2="55.88" y2="-127" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-127" x2="55.88" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-127" x2="55.88" y2="-127" width="0.1524" layer="91"/>
+<junction x="55.88" y="-127"/>
+<wire x1="55.88" y1="-127" x2="53.34" y2="-127" width="0.1524" layer="91"/>
+<label x="53.34" y="-127" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OP_P" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="-22.86" x2="185.42" y2="-22.86" width="0.1524" layer="91"/>
-<label x="185.42" y="-22.86" size="1.778" layer="95" xref="yes"/>
+<wire x1="68.58" y1="-127" x2="73.66" y2="-127" width="0.1524" layer="91"/>
+<label x="73.66" y="-127" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R22" gate="G$1" pin="2"/>
@@ -12122,14 +12126,14 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <net name="N$29" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="B"/>
-<wire x1="-114.3" y1="50.8" x2="-157.48" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="50.8" x2="-147.32" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="CN7" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="A"/>
-<wire x1="-114.3" y1="48.26" x2="-157.48" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="48.26" x2="-147.32" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="CN7" gate="G$1" pin="4"/>
 </segment>
 </net>
@@ -12148,9 +12152,9 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <wire x1="-124.46" y1="30.48" x2="-124.46" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="-132.08" y1="53.34" x2="-124.46" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="CN4" gate="G$1" pin="2"/>
-<wire x1="-147.32" y1="30.48" x2="-124.46" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="53.34" x2="-124.46" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="-129.54" y1="30.48" x2="-124.46" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-129.54" y1="2.54" x2="-124.46" y2="2.54" width="0.1524" layer="91"/>
@@ -12168,7 +12172,7 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 </net>
 <net name="N$30" class="0">
 <segment>
-<wire x1="-157.48" y1="53.34" x2="-137.16" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="53.34" x2="-134.62" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="CN7" gate="G$1" pin="2"/>
 </segment>
@@ -12199,6 +12203,13 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <wire x1="-68.58" y1="-76.2" x2="-68.58" y2="-99.06" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="MOSI"/>
 <wire x1="-68.58" y1="-99.06" x2="-58.42" y2="-99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="CN5" gate="G$1" pin="2"/>
+<wire x1="-147.32" y1="30.48" x2="-134.62" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>

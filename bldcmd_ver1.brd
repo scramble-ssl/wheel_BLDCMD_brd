@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -47,7 +47,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -150,7 +150,7 @@
 <text x="37" y="18.4" size="1.27" layer="22" ratio="12" rot="MR270">UART</text>
 <text x="36.4" y="29.5" size="1.016" layer="22" ratio="12" rot="MR180">RS485</text>
 <text x="14.5" y="1.5" size="1.27" layer="21" ratio="12">3.3V</text>
-<text x="36" y="20.5" size="1.27" layer="21" ratio="12" rot="R90">5V</text>
+<text x="34.7" y="18.1" size="1.27" layer="21" ratio="12" rot="R90">5V</text>
 <text x="3.4" y="34" size="1.27" layer="21" ratio="12" rot="R90">Batt</text>
 <text x="39.9" y="10.5" size="1.016" layer="21" ratio="12" align="center-left">GND</text>
 <text x="38" y="11.7" size="1.016" layer="21" ratio="12" align="center-left">SWCLK</text>
@@ -169,16 +169,16 @@
 <text x="27.6" y="44.1" size="1.016" layer="22" ratio="12" rot="MR0">Scramble
 BLDC_MotorDriver
 v1.0</text>
-<text x="38.1" y="16.7" size="1.016" layer="21" ratio="12" align="center-left">RX</text>
-<text x="38.1" y="15.5" size="1.016" layer="21" ratio="12" align="center-left">TX</text>
-<text x="39.7" y="17.8" size="1.016" layer="21" ratio="12" align="center-left">5V</text>
-<text x="38.9" y="19" size="1.016" layer="21" ratio="12" align="center-left">GND</text>
-<wire x1="39.9" y1="16.7" x2="41.2" y2="16.7" width="0.1524" layer="21"/>
-<wire x1="39.9" y1="15.5" x2="41.2" y2="15.5" width="0.1524" layer="21"/>
-<wire x1="39.9" y1="16.7" x2="40.3" y2="17.1" width="0.1524" layer="21"/>
-<wire x1="39.9" y1="16.7" x2="40.3" y2="16.3" width="0.1524" layer="21"/>
-<wire x1="41.2" y1="15.5" x2="40.8" y2="15.9" width="0.1524" layer="21"/>
-<wire x1="41.2" y1="15.5" x2="40.8" y2="15.1" width="0.1524" layer="21"/>
+<text x="38.1" y="16.6" size="1.016" layer="21" ratio="12" align="center-left">RX</text>
+<text x="38.1" y="15.4" size="1.016" layer="21" ratio="12" align="center-left">TX</text>
+<text x="39.7" y="17.7" size="1.016" layer="21" ratio="12" align="center-left">5V</text>
+<text x="38.9" y="18.9" size="1.016" layer="21" ratio="12" align="center-left">GND</text>
+<wire x1="39.9" y1="16.6" x2="41.2" y2="16.6" width="0.1524" layer="21"/>
+<wire x1="39.9" y1="15.4" x2="41.2" y2="15.4" width="0.1524" layer="21"/>
+<wire x1="39.9" y1="16.6" x2="40.3" y2="17" width="0.1524" layer="21"/>
+<wire x1="39.9" y1="16.6" x2="40.3" y2="16.2" width="0.1524" layer="21"/>
+<wire x1="41.2" y1="15.4" x2="40.8" y2="15.8" width="0.1524" layer="21"/>
+<wire x1="41.2" y1="15.4" x2="40.8" y2="15" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -1961,9 +1961,10 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
+<param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="0"/>
-<param name="checkStop" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2226,7 +2227,7 @@ design rules under a new name.</description>
 <attribute name="HEIGHT" value="0.85mm" x="39.6" y="21.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Analog Devices" x="39.6" y="21.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ADM4852ACPZ-REEL7" x="39.6" y="21.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="40.9" y="18.9" size="1.016" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="42.1" y="24" size="1.016" layer="25" rot="R270" align="center"/>
 <attribute name="OTHER_PART_NUMBER" value="" x="39.6" y="21.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PART_NUMBER" value="" x="39.6" y="21.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SUPPLIER_NAME" value="RS" x="39.6" y="21.7" size="1.778" layer="27" rot="R90" display="off"/>

@@ -29,7 +29,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="31" fill="10" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="31" fill="1" visible="yes" active="no"/>
 <layer number="22" name="bPlace" color="25" fill="10" visible="yes" active="no"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
@@ -11147,9 +11147,9 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 </classes>
 <parts>
 <part name="IC1" library="scramble-mcu" deviceset="STSPIN32F0A" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1u"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1u"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="0.1u"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1u"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1u"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="0.1u"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="20"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="20"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="20"/>
@@ -11284,6 +11284,11 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <part name="CN3" library="scramble-con-jst" deviceset="?M05B-SRSS-TB" device="S"/>
 <part name="CN5" library="scramble-con-jst" deviceset="?M04B-SRSS-TB" device="S"/>
 <part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT60J" device="" package3d_urn="urn:adsk.eagle:package:43461/1"/>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="10k"/>
+<part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0603" package3d_urn="urn:adsk.eagle:package:15832/1"/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
+<part name="SUPPLY31" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11403,6 +11408,11 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <instance part="CN3" gate="G$1" x="-116.84" y="-48.26" rot="MR0"/>
 <instance part="CN5" gate="G$1" x="-147.32" y="30.48" rot="MR0"/>
 <instance part="D3" gate="G$1" x="-132.08" y="30.48"/>
+<instance part="R18" gate="G$1" x="33.02" y="35.56" rot="R90"/>
+<instance part="SUPPLY30" gate="GND" x="33.02" y="45.72" rot="R180"/>
+<instance part="LED4" gate="G$1" x="38.1" y="53.34" rot="R90"/>
+<instance part="R19" gate="G$1" x="50.8" y="53.34" rot="R180"/>
+<instance part="SUPPLY31" gate="GND" x="60.96" y="53.34" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -11705,6 +11715,16 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <segment>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="SUPPLY26" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY30" gate="GND" pin="GND"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="43.18" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY31" gate="GND" pin="GND"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="53.34" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -12214,6 +12234,27 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/082f/090076
 <segment>
 <pinref part="R28" gate="G$1" pin="1"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="G$1" pin="BOOT0"/>
+<wire x1="33.02" y1="30.48" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="LED4" gate="G$1" pin="C"/>
+<wire x1="45.72" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="LED4" gate="G$1" pin="A"/>
+<pinref part="IC1" gate="G$1" pin="PB7"/>
+<wire x1="35.56" y1="53.34" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

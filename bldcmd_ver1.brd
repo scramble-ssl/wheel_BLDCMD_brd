@@ -7,9 +7,9 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -29,15 +29,15 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="31" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="25" fill="10" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="11" fill="7" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="13" fill="7" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="13" fill="7" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -47,7 +47,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -57,9 +57,9 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="18" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="18" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
@@ -127,7 +127,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOTdmOTdk" projecturn="a.cGVyc29uYWw6dWUyOTdmOTdkIzIwMTYwMTIwMjMzNzY0MzE" f3durn="urn:adsk.wipprod:dm.lineage:Rlxp0FusTXWNQhIXcPZ1tQ" pcbguid="3740698e-3e28-4753-a590-d83306e07c12" lastpulledtime="" lastsyncedchangeguid="09eb6062-57fd-4b9e-7a9e-39c488cf4b4b"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOTdmOTdk" projecturn="a.cGVyc29uYWw6dWUyOTdmOTdkIzIwMTYwMTIwMjMzNzY0MzE" f3durn="urn:adsk.wipprod:dm.lineage:Rlxp0FusTXWNQhIXcPZ1tQ" pcbguid="3740698e-3e28-4753-a590-d83306e07c12" lastpulledtime="" lastsyncedchangeguid="25f6fb32-d5f4-c03e-7a0e-6774be7ba0ba"/>
 <plain>
 <wire x1="0" y1="0" x2="43" y2="0" width="0" layer="20"/>
 <wire x1="22.5" y1="22" x2="23" y2="22" width="0.1524" layer="49"/>
@@ -155,50 +155,47 @@
 <text x="28" y="28.3" size="1.016" layer="22" ratio="12" rot="MR0">Scramble
 BLDC_MotorDriver
 v1.1</text>
-<dimension x1="0" y1="0" x2="43" y2="0" x3="21.5" y3="-19.4" textsize="1.778" layer="48"/>
-<dimension x1="0" y1="0" x2="0" y2="49" x3="-10.8" y3="24.5" textsize="1.778" layer="48"/>
-<dimension x1="0" y1="49" x2="43" y2="49" x3="21.5" y3="60.8" textsize="1.778" layer="48"/>
-<dimension x1="43" y1="49" x2="43" y2="0" x3="63.8" y3="24.5" textsize="1.778" layer="48"/>
+<dimension x1="0" y1="-1" x2="43" y2="-1" x3="21.5" y3="-8.4" textsize="1.778" layer="48"/>
+<dimension x1="-1" y1="0" x2="-1" y2="43" x3="-6.8" y3="21.5" textsize="1.778" layer="48"/>
+<dimension x1="0" y1="44" x2="43" y2="44" x3="21.5" y3="48.8" textsize="1.778" layer="48"/>
+<dimension x1="44" y1="43" x2="44" y2="0" x3="50.800003125" y3="21.5" textsize="1.778" layer="48"/>
 <wire x1="43" y1="0" x2="43" y2="1.4" width="0" layer="20"/>
 <wire x1="43" y1="1.4" x2="41" y2="1.4" width="0" layer="20"/>
 <wire x1="41" y1="1.4" x2="39.4" y2="3" width="0" layer="20" curve="-90"/>
 <wire x1="39.4" y1="3" x2="41" y2="4.6" width="0" layer="20" curve="-90"/>
 <wire x1="41" y1="4.6" x2="43" y2="4.6" width="0" layer="20"/>
-<wire x1="43" y1="4.6" x2="43" y2="44.4" width="0" layer="20"/>
-<wire x1="43" y1="44.4" x2="41.1" y2="44.4" width="0" layer="20"/>
-<wire x1="41.1" y1="44.4" x2="39.4" y2="46" width="0" layer="20" curve="-90"/>
-<wire x1="39.4" y1="46" x2="41" y2="47.6" width="0" layer="20" curve="-90"/>
-<wire x1="41" y1="47.6" x2="43" y2="47.6" width="0" layer="20"/>
-<wire x1="43" y1="47.6" x2="43" y2="49" width="0" layer="20"/>
-<wire x1="43" y1="49" x2="0" y2="49" width="0" layer="20"/>
-<wire x1="0" y1="49" x2="0" y2="47.6" width="0" layer="20"/>
-<wire x1="0" y1="47.6" x2="2" y2="47.6" width="0" layer="20"/>
-<wire x1="2" y1="47.6" x2="3.6" y2="46" width="0" layer="20" curve="-90"/>
-<wire x1="3.6" y1="46" x2="2" y2="44.4" width="0" layer="20" curve="-90"/>
-<wire x1="2" y1="44.4" x2="0" y2="44.4" width="0" layer="20"/>
-<wire x1="0" y1="44.4" x2="0" y2="4.6" width="0" layer="20"/>
+<wire x1="43" y1="4.6" x2="43" y2="38.4" width="0" layer="20"/>
+<wire x1="43" y1="38.4" x2="41.1" y2="38.4" width="0" layer="20"/>
+<wire x1="41.1" y1="38.4" x2="39.4" y2="40" width="0" layer="20" curve="-90"/>
+<wire x1="39.4" y1="40" x2="41" y2="41.6" width="0" layer="20" curve="-90"/>
+<wire x1="41" y1="41.6" x2="43" y2="41.6" width="0" layer="20"/>
+<wire x1="43" y1="41.6" x2="43" y2="43" width="0" layer="20"/>
+<wire x1="43" y1="43" x2="0" y2="43" width="0" layer="20"/>
+<wire x1="0" y1="43" x2="0" y2="41.6" width="0" layer="20"/>
+<wire x1="0" y1="41.6" x2="2" y2="41.6" width="0" layer="20"/>
+<wire x1="2" y1="41.6" x2="3.6" y2="40" width="0" layer="20" curve="-90"/>
+<wire x1="3.6" y1="40" x2="2" y2="38.4" width="0" layer="20" curve="-90"/>
+<wire x1="2" y1="38.4" x2="0" y2="38.4" width="0" layer="20"/>
+<wire x1="0" y1="38.4" x2="0" y2="4.6" width="0" layer="20"/>
 <wire x1="0" y1="4.6" x2="2" y2="4.6" width="0" layer="20"/>
 <wire x1="2" y1="4.6" x2="3.6" y2="3" width="0" layer="20" curve="-90"/>
 <wire x1="3.6" y1="3" x2="2" y2="1.4" width="0" layer="20" curve="-90"/>
 <wire x1="2" y1="1.4" x2="0" y2="1.4" width="0" layer="20"/>
 <wire x1="0" y1="1.4" x2="0" y2="0" width="0" layer="20"/>
-<dimension x1="41" y1="46" x2="2" y2="46" x3="21.5" y3="50" textsize="1.778" layer="48"/>
-<circle x="41" y="46" radius="1.6" width="0.1016" layer="49"/>
-<wire x1="39" y1="46" x2="43" y2="46" width="0.1016" layer="49"/>
-<wire x1="41" y1="48" x2="41" y2="44" width="0.1016" layer="49"/>
-<wire x1="2" y1="48" x2="2" y2="44" width="0.1016" layer="49"/>
-<circle x="2" y="46" radius="1.6" width="0.1016" layer="49"/>
-<wire x1="4" y1="46" x2="0" y2="46" width="0.1016" layer="49"/>
-<wire x1="43" y1="48" x2="43" y2="44" width="0.1016" layer="49"/>
-<wire x1="0" y1="48" x2="0" y2="44" width="0.1016" layer="49"/>
+<dimension x1="41" y1="40" x2="2" y2="40" x3="21.5" y3="45" textsize="1.778" layer="48"/>
+<circle x="41" y="40" radius="1.6" width="0.1016" layer="49"/>
+<wire x1="39" y1="40" x2="43" y2="40" width="0.1016" layer="49"/>
+<wire x1="41" y1="42" x2="41" y2="38" width="0.1016" layer="49"/>
+<circle x="2" y="40" radius="1.6" width="0.1016" layer="49"/>
+<wire x1="4" y1="40" x2="0" y2="40" width="0.1016" layer="49"/>
 <wire x1="39" y1="3" x2="43" y2="3" width="0.1016" layer="49"/>
 <wire x1="41" y1="5" x2="41" y2="1" width="0.1016" layer="49"/>
 <wire x1="4" y1="3" x2="0" y2="3" width="0.1016" layer="49"/>
 <wire x1="2" y1="5" x2="2" y2="1" width="0.1016" layer="49"/>
 <circle x="2" y="3" radius="1.6" width="0.1016" layer="49"/>
 <circle x="41" y="3" radius="1.6" width="0.1016" layer="49"/>
-<dimension x1="41" y1="46" x2="41" y2="3" x3="47" y3="24.5" textsize="1.778" layer="48"/>
-<dimension x1="2" y1="46" x2="2" y2="3" x3="-2" y3="24.5" textsize="1.778" layer="48"/>
+<dimension x1="41" y1="40" x2="41" y2="3" x3="47" y3="21.5" textsize="1.778" layer="48"/>
+<dimension x1="2" y1="40" x2="2" y2="3" x3="-2" y3="21.5" textsize="1.778" layer="48"/>
 <dimension x1="2" y1="3" x2="41" y2="3" x3="21.5" y3="-3" textsize="1.778" layer="48"/>
 <circle x="41" y="3" radius="3" width="0.1016" layer="49"/>
 <circle x="2" y="3" radius="3" width="0.1016" layer="49"/>
@@ -207,8 +204,8 @@ v1.1</text>
 <wire x1="21.5" y1="22" x2="-0.1" y2="43.6" width="0.254" layer="49"/>
 <wire x1="21.5" y1="22" x2="43.1" y2="43.6" width="0.254" layer="49"/>
 <wire x1="43.1" y1="43.6" x2="-0.1" y2="43.6" width="0.254" layer="49"/>
-<circle x="2" y="46" radius="3" width="0.1016" layer="49"/>
-<circle x="41" y="46" radius="3" width="0.1016" layer="49"/>
+<circle x="2" y="40" radius="3" width="0.1016" layer="49"/>
+<circle x="41" y="40" radius="3" width="0.1016" layer="49"/>
 <wire x1="2" y1="44" x2="2" y2="36.9" width="0.127" layer="49"/>
 </plain>
 <libraries>

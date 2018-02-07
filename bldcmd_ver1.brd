@@ -57,7 +57,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="18" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="18" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="11" fill="1" visible="yes" active="yes"/>
@@ -147,9 +147,10 @@
 <wire x1="21.5" y1="23.1" x2="21.5" y2="20.9" width="0.2" layer="22"/>
 <wire x1="21.5" y1="43.3" x2="21.5" y2="42.6" width="0.2" layer="22"/>
 <wire x1="5.8" y1="22" x2="0.2" y2="22" width="0.2" layer="22"/>
-<text x="18.7" y="30.2" size="1.016" layer="21" ratio="12">Scramble
+<text x="18.6" y="31.3" size="1.27" layer="21" ratio="12">Scramble
 BLDC_MotorDriver
-v1.1</text>
+for Maxon EC-Flat
+v1.2</text>
 <dimension x1="0" y1="-1" x2="43" y2="-1" x3="21.5" y3="-8.4" textsize="1.778" layer="48"/>
 <dimension x1="-1" y1="0" x2="-1" y2="43" x3="-6.8" y3="21.5" textsize="1.778" layer="48"/>
 <dimension x1="0" y1="44" x2="43" y2="44" x3="21.5" y3="48.8" textsize="1.778" layer="48"/>
@@ -211,6 +212,42 @@ v1.1</text>
 <wire x1="22.6" y1="22" x2="20.4" y2="22" width="0.2" layer="22"/>
 <wire x1="19.3" y1="22" x2="19.6" y2="22" width="0.2" layer="22"/>
 <wire x1="23.4" y1="22" x2="23.7" y2="22" width="0.2" layer="22"/>
+<polygon width="0.0762" layer="30">
+<vertex x="5.4" y="23.7"/>
+<vertex x="5.4" y="25.4"/>
+<vertex x="6.2" y="25.4"/>
+<vertex x="6.2" y="23.7"/>
+</polygon>
+<polygon width="0.0762" layer="30">
+<vertex x="5.4" y="19.8"/>
+<vertex x="6.2" y="19.8"/>
+<vertex x="6.2" y="18.1"/>
+<vertex x="5.4" y="18.1"/>
+</polygon>
+<polygon width="0.0762" layer="30">
+<vertex x="5.4" y="29.3"/>
+<vertex x="5.4" y="31"/>
+<vertex x="6.2" y="31"/>
+<vertex x="6.2" y="29.3"/>
+</polygon>
+<polygon width="0.0762" layer="30">
+<vertex x="9.4" y="29.3"/>
+<vertex x="10.2" y="29.3"/>
+<vertex x="10.2" y="31"/>
+<vertex x="9.4" y="31"/>
+</polygon>
+<polygon width="0.0762" layer="30">
+<vertex x="9.4" y="25.4"/>
+<vertex x="10.2" y="25.4"/>
+<vertex x="10.2" y="23.7"/>
+<vertex x="9.4" y="23.7"/>
+</polygon>
+<polygon width="0.0762" layer="30">
+<vertex x="9.4" y="19.8"/>
+<vertex x="10.2" y="19.8"/>
+<vertex x="10.2" y="18.1"/>
+<vertex x="9.4" y="18.1"/>
+</polygon>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2236,9 +2273,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="12.1" y="26.7" size="1.016" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="10.77" y="25.16" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10u" x="9.5" y="16.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="12.1" y="15.5" size="1.016" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="10.77" y="13.96" size="1.27" layer="28" rot="MR0"/>
+<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10u" x="8.8" y="16.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="11.4" y="15.5" size="1.016" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="10.07" y="13.96" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R3216" package3d_urn="urn:adsk.eagle:package:23557/2" value="0.01" x="5.7" y="34.1" smashed="yes" rot="MR315">
 <attribute name="NAME" x="9.22475" y="34.26221875" size="1.016" layer="26" rot="MR315"/>
@@ -2768,8 +2805,8 @@ design rules under a new name.</description>
 <vertex x="12.8" y="26.1"/>
 <vertex x="12.8" y="27.15"/>
 <vertex x="15" y="27.15"/>
-<vertex x="15" y="25.35"/>
-<vertex x="11.95" y="22.3"/>
+<vertex x="15" y="25.15"/>
+<vertex x="12.15" y="22.3"/>
 <vertex x="8.05" y="22.3"/>
 <vertex x="6.7" y="23.5"/>
 </polygon>
@@ -2862,12 +2899,12 @@ design rules under a new name.</description>
 <polygon width="0.1524" layer="1" thermals="no">
 <vertex x="6.7" y="20.5"/>
 <vertex x="8.1" y="21.9"/>
-<vertex x="12" y="21.9"/>
-<vertex x="15.35" y="25.25"/>
+<vertex x="12.2" y="21.9"/>
+<vertex x="15.35" y="25.05"/>
 <vertex x="15.35" y="27.15"/>
 <vertex x="17.6" y="27.15"/>
-<vertex x="17.6" y="23.8"/>
-<vertex x="11.3" y="17.5"/>
+<vertex x="17.6" y="23.6"/>
+<vertex x="11.5" y="17.5"/>
 <vertex x="7.1" y="17.5"/>
 <vertex x="6.7" y="17.9"/>
 </polygon>
@@ -3019,7 +3056,7 @@ design rules under a new name.</description>
 </polygon>
 <contactref element="R22" pad="2"/>
 <via x="14.1" y="15.2" extent="1-16" drill="0.35"/>
-<wire x1="8.1" y1="16.5" x2="7" y2="16.5" width="0.254" layer="16"/>
+<wire x1="7.4" y1="16.5" x2="7" y2="16.5" width="0.254" layer="16"/>
 <wire x1="7" y1="16.5" x2="5.8" y2="17.7" width="0.254" layer="16"/>
 <wire x1="5.8" y1="17.7" x2="5.8" y2="18.3" width="0.254" layer="16"/>
 <wire x1="5.8" y1="18.3" x2="5.775" y2="18.325" width="0.254" layer="16"/>
@@ -3819,11 +3856,11 @@ design rules under a new name.</description>
 <vertex x="10.4" y="23"/>
 <vertex x="10.4" y="21.2"/>
 <vertex x="10.7" y="20.9"/>
-<vertex x="10.7" y="17.7"/>
-<vertex x="10.4" y="17.4"/>
-<vertex x="10.4" y="15.6"/>
-<vertex x="11.5" y="15.6"/>
-<vertex x="14.4" y="18.5"/>
+<vertex x="10.7" y="18"/>
+<vertex x="10.1" y="17.4"/>
+<vertex x="10.1" y="15.6"/>
+<vertex x="11" y="15.6"/>
+<vertex x="14.4" y="19"/>
 <vertex x="14.4" y="22.5"/>
 <vertex x="19.6" y="27.7"/>
 <vertex x="24.8" y="27.7"/>
@@ -3841,7 +3878,7 @@ design rules under a new name.</description>
 <wire x1="11.825" y1="30.5" x2="11.825" y2="32.025" width="0.8128" layer="16"/>
 <wire x1="11.825" y1="32.025" x2="11.1" y2="33.5" width="0.8128" layer="16"/>
 <wire x1="11.825" y1="19.3" x2="11.825" y2="17.425" width="0.254" layer="16"/>
-<wire x1="11.825" y1="17.425" x2="10.9" y2="16.5" width="0.254" layer="16"/>
+<wire x1="11.825" y1="17.425" x2="10.2" y2="16.5" width="0.254" layer="16"/>
 <contactref element="C20" pad="1"/>
 <contactref element="LED3" pad="A"/>
 <contactref element="U$6" pad="1"/>

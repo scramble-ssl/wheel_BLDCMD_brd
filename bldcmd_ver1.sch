@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="8.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -18259,18 +18259,18 @@ Source: www.kingbright.com</description>
 <smd name="5" x="2.4" y="-0.3" dx="0.85" dy="0.6" layer="1" rot="R90"/>
 <smd name="6" x="3.55" y="-4.075" dx="0.8" dy="0.7" layer="1" rot="R90"/>
 <smd name="7" x="-3.55" y="-4.075" dx="0.8" dy="0.7" layer="1" rot="R90"/>
-<text x="3" y="-6" size="1.27" layer="27" ratio="12">&gt;VALUE</text>
+<text x="3" y="-6" size="1.27" layer="51" ratio="12">&gt;VALUE</text>
 <text x="-3.2" y="-6" size="1.27" layer="25" ratio="12">&gt;NAME</text>
 <wire x1="-3.85" y1="0" x2="3.85" y2="0" width="0.2" layer="51"/>
 <wire x1="3.85" y1="0" x2="3.85" y2="-4.35" width="0.2" layer="51"/>
 <wire x1="3.85" y1="-4.35" x2="-3.85" y2="-4.35" width="0.2" layer="51"/>
 <wire x1="-3.85" y1="-4.35" x2="-3.85" y2="0" width="0.2" layer="51"/>
-<wire x1="-3.85" y1="0" x2="-3.85" y2="-3.437" width="0.2" layer="25"/>
-<wire x1="-2.919" y1="-4.35" x2="2.919" y2="-4.35" width="0.2" layer="25"/>
-<wire x1="-3.85" y1="0" x2="-2.989" y2="0" width="0.2" layer="25"/>
-<wire x1="3.85" y1="0" x2="2.989" y2="0" width="0.2" layer="25"/>
-<wire x1="3.85" y1="0" x2="3.85" y2="-3.437" width="0.2" layer="25"/>
-<circle x="-2.395" y="0.552" radius="0.03" width="0.2" layer="25"/>
+<wire x1="-3.85" y1="0" x2="-3.85" y2="-3.437" width="0.2" layer="21"/>
+<wire x1="-2.919" y1="-4.35" x2="2.919" y2="-4.35" width="0.2" layer="21"/>
+<wire x1="-3.85" y1="0" x2="-2.989" y2="0" width="0.2" layer="21"/>
+<wire x1="3.85" y1="0" x2="2.989" y2="0" width="0.2" layer="21"/>
+<wire x1="3.85" y1="0" x2="3.85" y2="-3.437" width="0.2" layer="21"/>
+<circle x="-2.395" y="0.552" radius="0.03" width="0.2" layer="21"/>
 </package>
 </packages>
 <symbols>

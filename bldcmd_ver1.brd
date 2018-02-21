@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.1">
+<eagle version="8.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -127,7 +127,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOTdmOTdk" projecturn="a.cGVyc29uYWw6dWUyOTdmOTdkIzIwMTYwMTIwMjMzNzY0MzE" f3durn="urn:adsk.wipprod:dm.lineage:Rlxp0FusTXWNQhIXcPZ1tQ" pcbguid="3740698e-3e28-4753-a590-d83306e07c12" lastpulledtime="" lastsyncedchangeguid="25f6fb32-d5f4-c03e-7a0e-6774be7ba0ba"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOTdmOTdk" projecturn="a.cGVyc29uYWw6dWUyOTU3OWFmIzIwMTUxMTE3MjAxNDA0ODE" f3durn="urn:adsk.wipprod:dm.lineage:J7Zks5KORiKn9jIOSRE2yg" pcbguid="38fc751b-950d-4654-b46a-12ab75691820" lastpulledtime="" lastsyncedchangeguid="878446f8-24da-0944-979f-ee85bcb5995d"/>
 <plain>
 <wire x1="0" y1="0" x2="43" y2="0" width="0" layer="20"/>
 <circle x="21.5" y="22" radius="21.3" width="0.1524" layer="49"/>
